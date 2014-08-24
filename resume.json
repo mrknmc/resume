@@ -1,0 +1,120 @@
+{
+  "basics": {
+    "name": "Mark Nemec",
+    "picture": "",
+    "email": "mrknmc@me.com",
+    "website": "http://mrknmc.com",
+    "summary": "I'm a student at the University of Edinburgh.",
+    "location": {
+      "address": "3F1 3 Grindlay Street",
+      "postalCode": "EH3 9AT",
+      "city": "Edinburgh",
+      "countryCode": "UK"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "mrknmc",
+        "url": "https://github.com/mrknmc"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Skyscanner",
+      "position": "Software Engineer",
+      "website": "http://skyscanner.net",
+      "startDate": "2013-12-01",
+      "summary": "I got into the internship programme in 2013 and was offered a part-time position for a year after that. I came back to intern next summer again.",
+      "highlights": [
+        "Price parsing algorithm that can deal with most currencies and price formats",
+        "Wrote Python code for web-scraping framework",
+        "Worked with multiple web frameworks: Flask, Django, Angular"
+      ]
+  },
+  {
+    "company": "ArcGEO",
+    "position": "Intern",
+    "website": "http://arcgeo.sk",
+    "startDate": "2012-06-01",
+    "endDate": "2012-08-31",
+    "summary": "I worked on an Android app called tourcentrope. The app is aimed on tourism on the borders of Slovakia, Czech Republic, Austria and Hungary. I worked on the whole app - from Software design to UI.",
+    "highlights": [
+    ]
+  },
+  {
+    "company": "bajkomktajchom.sk",
+    "position": "Web development",
+    "website": "http://bajkomktajchom.sk",
+    "startDate": "2012-06-01",
+    "endDate": "2012-08-31",
+    "summary": "A website I created and designed about a mountain-biking project in Štiavnické Vrchy mountain range in Slovakia.",
+    "highlights": [
+    ]
+}
+  ],
+  "volunteer": [
+      {
+        "organization": "Interfaith Gardening Project, IVS",
+        "position": "Volunteer",
+        "startDate": "2010-08-01",
+        "endDate": "2010-08-31",
+        "summary": "The aim of the project was to help upkeep buildings of various religions and meet people from different cultures.",
+        "highlights": [
+        ]
+      }
+  ],
+  "education": [
+    {
+      "institution": "University of Edinburgh",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2011-09-01",
+      "courses": [
+      ]
+    }
+  ],
+  "awards": [
+    {
+        "title": "Netcraft Prize",
+        "date": "2014-09-10",
+        "awarder": "Netcraft",
+        "summary": "The Netcraft Prizes are awarded to the 6 undergraduate students with best performance in third year."
+    }
+  ],
+  "publications": [
+  ],
+  "skills": [
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Slovak",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [
+      {
+        "name": "Sports",
+        "keywords": [
+          "Snowboarding",
+          "Running"
+        ]
+      },
+      {
+        "name": "Concertgoing",
+        "keywords": [
+
+        ]
+      }
+  ],
+  "references": [
+  ]
+}
