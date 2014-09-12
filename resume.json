@@ -18,7 +18,7 @@
         "url": "https://github.com/mrknmc"
       },
       {
-        "network": "LinkedIn",
+        "network": "Linkedin",
         "username": "Mark Nemec",
         "url": "https://www.linkedin.com/pub/mark-nemec/25/205/99b"
       }
@@ -41,7 +41,8 @@
     {
       "company": "Danger Farms",
       "position": "Part-time development",
-      "endDate": "2013-04-01",
+      "startDate": "2013",
+      "endDate": "2013",
       "summary": "I worked part-time on multiple Django apps with Danger Farms while in the 2nd year of university. This is where I learned how to work with web frameworks and became proficient in Python.",
       "highlights": [
       ]
@@ -52,7 +53,7 @@
       "website": "http://arcgeo.sk",
       "startDate": "2012-06-01",
       "endDate": "2012-08-31",
-      "summary": "I worked on a prototype for an Android app called tourcentrope. The app was aimed on tourism on the borders of Slovakia, Czech Republic, Austria and Hungary. I worked on all aspects of the app - from architecture to user interface.",
+      "summary": "I worked on a prototype for an Android app called tourcentrope. The app was aimed at tourism on the borders of Slovakia, Czech Republic, Austria and Hungary. I worked on all aspects of the app - from architecture to user interface.",
       "highlights": [
       ]
     },
@@ -94,11 +95,35 @@
         "date": "2014-09-10",
         "awarder": "Netcraft",
         "summary": "The Netcraft Prizes are awarded to the 6 undergraduate students with best performance in third year."
+    },
+    {
+        "title": "Best Game Prize",
+        "date": "2012",
+        "awarder": "Informatics 1 - Object Oriented Programming",
+        "summary": "Manager and developer of a team that was awarded the prize for the best game."
     }
   ],
-  "publications": [
-  ],
   "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Django",
+        "Flask"
+      ]
+    },
+    {
+      "name": "Mobile App Development",
+      "level": "Basic",
+      "keywords": [
+        "Objective-C",
+        "Swift",
+        "Android"
+      ]
+    },
   ],
   "languages": [
     {
@@ -123,9 +148,10 @@
         ]
       },
       {
-        "name": "Concertgoing",
+        "name": "Leisure",
         "keywords": [
-
+          "Concertgoing",
+          "Playing board games"
         ]
       }
   ],
