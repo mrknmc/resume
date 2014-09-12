@@ -4,7 +4,7 @@
     "picture": "",
     "email": "mrknmc@me.com",
     "website": "http://mrknmc.com",
-    "summary": "I'm a student at the University of Edinburgh.",
+    "summary": "I'm a 4th year Computer Science student at the University of Edinburgh.",
     "location": {
       "address": "3F1 3 Grindlay Street",
       "postalCode": "EH3 9AT",
@@ -16,6 +16,11 @@
         "network": "Github",
         "username": "mrknmc",
         "url": "https://github.com/mrknmc"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Mark Nemec",
+        "url": "https://www.linkedin.com/pub/mark-nemec/25/205/99b"
       }
     ]
   },
@@ -24,34 +29,43 @@
       "company": "Skyscanner",
       "position": "Software Engineer",
       "website": "http://skyscanner.net",
-      "startDate": "2013-12-01",
-      "summary": "I got into the internship programme in 2013 and was offered a part-time position for a year after that. I came back to intern next summer again.",
+      "startDate": "2013-05-28",
+      "endDate": "2014-08-31",
+      "summary": "I got into the internship programme in 2013 and was offered a part-time position for the next year. In summer 2014 I returned as an intern. Most of the work revolved around writing and maintaining scrapers for airlines but I got involved in several interesting projects.",
       "highlights": [
         "Price parsing algorithm that can deal with most currencies and price formats",
-        "Wrote Python code for web-scraping framework",
+        "Script fetching many concurrent requests using Python 3 asyncio library",
         "Worked with multiple web frameworks: Flask, Django, Angular"
       ]
-  },
-  {
-    "company": "ArcGEO",
-    "position": "Intern",
-    "website": "http://arcgeo.sk",
-    "startDate": "2012-06-01",
-    "endDate": "2012-08-31",
-    "summary": "I worked on an Android app called tourcentrope. The app is aimed on tourism on the borders of Slovakia, Czech Republic, Austria and Hungary. I worked on the whole app - from Software design to UI.",
-    "highlights": [
-    ]
-  },
-  {
-    "company": "bajkomktajchom.sk",
-    "position": "Web development",
-    "website": "http://bajkomktajchom.sk",
-    "startDate": "2012-06-01",
-    "endDate": "2012-08-31",
-    "summary": "A website I created and designed about a mountain-biking project in Štiavnické Vrchy mountain range in Slovakia.",
-    "highlights": [
-    ]
-}
+    },
+    {
+      "company": "Danger Farms",
+      "position": "Part-time development",
+      "endDate": "2013-04-01",
+      "summary": "I worked part-time on multiple Django apps with Danger Farms while in the 2nd year of university. This is where I learned how to work with web frameworks and became proficient in Python.",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "ArcGEO",
+      "position": "Intern",
+      "website": "http://arcgeo.sk",
+      "startDate": "2012-06-01",
+      "endDate": "2012-08-31",
+      "summary": "I worked on a prototype for an Android app called tourcentrope. The app was aimed on tourism on the borders of Slovakia, Czech Republic, Austria and Hungary. I worked on all aspects of the app - from architecture to user interface.",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "bajkomktajchom.sk",
+      "position": "Web development",
+      "website": "http://bajkomktajchom.sk",
+      "startDate": "2012-06-01",
+      "endDate": "2012-08-31",
+      "summary": "A website I created and designed for a mountain-biking project in Štiavnické Vrchy mountain range in Slovakia.",
+      "highlights": [
+      ]
+  }
   ],
   "volunteer": [
       {
