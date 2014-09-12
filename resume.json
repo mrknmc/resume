@@ -41,8 +41,8 @@
     {
       "company": "Danger Farms",
       "position": "Part-time development",
-      "startDate": "2013",
-      "endDate": "2013",
+      "startDate": "2013-02-01",
+      "endDate": "2013-04-01",
       "summary": "I worked part-time on multiple Django apps with Danger Farms while in the 2nd year of university. This is where I learned how to work with web frameworks and became proficient in Python.",
       "highlights": [
       ]
@@ -98,7 +98,7 @@
     },
     {
         "title": "Best Game Prize",
-        "date": "2012",
+        "date": "2012-03-30",
         "awarder": "Informatics 1 - Object Oriented Programming",
         "summary": "Manager and developer of a team that was awarded the prize for the best game."
     }
@@ -123,7 +123,7 @@
         "Swift",
         "Android"
       ]
-    },
+    }
   ],
   "languages": [
     {
