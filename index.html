@@ -1,135 +1,600 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> </title>
-    <link href="http://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet" />
-   <style>
-    </style>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mark Nemec</title>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <style>
+            body {
+    font-family: 'Lato';
+    background: #F0F0F0;
+    color: #333;
+}
 
-  
-  </head>
-  <body>
-    <div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-        <h1>Mark Nemec<h1>
+.main {
+	padding: 5px;
+}
 
-        <h2>Edinburgh</h2>
+.card {
+	background: white;
+	border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    min-height: 300px;
+    padding: 10px;
+}
+
+.card-nested {
+    min-height: 0;
+    margin-bottom: 10px;
+    border-width: 1px 0 0 0;
+}
+
+.card-work-experience:last-child {
+    margin-bottom: 0;
+}
+
+.background-card {
+    padding: 10px 20px;
+}
+
+.card-wrapper {
+    padding: 5px;
+}
+
+.profile-pic {
+    padding: 20px 0;
+}
+
+.text-bolder {
+    font-weight: bold;
+}
+
+.contact-details .detail {
+    display: table;
+    padding: 10px 0;
+}
+
+.contact-details .detail .icon {
+    padding: 0 10px;
+    color: #707070;
+}
+
+.contact-details .detail .icon, .contact-details .detail .info {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.contact-details .detail .info{
+	font-size: 0.8em;
+}
+
+.social-link {
+	margin-left: 5px;
+}
+
+.social-link:first-child {
+	margin-left: 0;
+}
+
+.social-link:hover {
+	text-decoration: none;
+}
+
+.link-github {
+	color: #454545;
+}
+
+.link-github:hover {
+    color: black;
+}
+
+.link-twitter {
+    color: #33CCFF;
+}
+
+.link-blog {
+	color: rgb(243, 111, 36);
+}
+
+.link-blog:hover {
+	color: rgb(211, 97, 32);
+}
+
+.background-details .detail {
+	display: table;
+	padding: 10px 0;
+}
+
+.background-details .detail .icon {
+	min-width: 45px;
+	max-width: 45px;
+	text-align: center;
+}
+
+.background-details .detail .title, .background-details .detail .icon {
+	color: # 707070;
+}
+
+.background-details .detail .icon,
+.background-details .detail .info {
+    display: table-cell;
+    padding: 0 10px;
+}
+
+.background-details .detail .info {
+    width: 100% ;
+}
+
+.timeline-circle {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #e2e2e2;
+    border-radius: 50% ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.timeline-content {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.clear-margin {
+    margin: 0;
+}
+
+.space-top {
+    margin-top: 10px;
+}
+
+.info .content.has-sidebar {
+    width: 80% ;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 10px;
+}
+
+.info .sidebar {
+    margin-left: 80% ;
+    box-sizing: border-box;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
+
+        </style>
+    </head>
+
+    <body>
+        <script>
+            window.onload = function () {
+                $(".background-card").css( "min-height", window.screen.availHeight + "px" );
+            }
+        </script>
+        <div class="container-fluid">
+            <div class="row main clearfix">
+                <section class="col-md-3 card-wrapper affix">
+                    <div class="card profile-card">
+                        <div class="profile-pic">
+                            <img class="media-object img-circle center-block"  data-src="holder.js/64x64"
+                                alt="64x64" src="http://www.gravatar.com/avatar/3dd86c55db73b804600d32c48a8f3925?s=100&amp;r=pg&amp;d=mm" style="width: 100px; height: 100px;">
+                        </div>
+                        
+                            <h3 class="text-center text-bolder"> Mark Nemec</h3>
+                            <h5 class="text-muted text-center"></h5>
+                            <hr>
+
+                            <div class="contact-details clearfix">
+
+                                
+                                    <div class="detail">
+                                        <span class="icon">
+                                            <i class="fa fa-lg fa-location-arrow"></i>
+                                        </span>
+
+                                        
+                                            <span class="info">
+                                                Edinburgh, ,
+                                                UK
+                                            </span>
+                                        
+                                    </div>
+                                
+
+                                
+
+                                
+                                    <div class="detail">
+                                        <span class="icon">
+                                            <i class="fa fa-lg fa-envelope"></i>
+                                        </span>
+
+                                        <span class="info">
+                                            mrknmc@me.com
+                                        </span>
+                                    </div>
+                                
+
+                                
+                                    <div class="detail">
+                                        <span class="icon" title="Languages I speak">
+                                            <i class="fa fa-lg fa-language"></i>
+                                        </span>
+
+                                        <span class="info">
+                                            English, Slovak, German
+                                        </span>
+                                    </div>
+                                
+                            </div>
+
+                            <hr>
+
+                            <div class="social-links text-center">
+                                
+                                    <a class="fa fa-github fa-2x social-link link-github"
+                                           href="http://www.github.com/mrknmc" target="_blank"></a>
+                                
+                                
+                                
+                                    <a class="fa fa-rss fa-2x social-link link-blog"
+                                           href="http://mrknmc.com" target="_blank"></a>
+                                
+                            </div>
+                        
+                    </div>
+                </section>
+
+                <section class="col-md-9 card-wrapper pull-right">
+                    <div class="card background-card">
+                        <h4 class="text-uppercase text-bolder">Background</h4>
+                        <hr>
+
+                        <div class="background-details">
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-user"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        About
+                                    </h4>
+
+                                    <div class="content">
+                                        I&#x27;m a 4th year Computer Science student at the University of Edinburgh.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-building"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        Work Experience
+                                    </h4>
+
+                                    <ul class="list-unstyled">
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Software Engineer</strong>,&nbsp;Skyscanner</p>
+                                                    <p>I got into the internship programme in 2013 and was offered a part-time position for the next year. In summer 2014 I returned as an intern. Most of the work revolved around writing and maintaining scrapers for airlines but I got involved in several interesting projects.</p>
+                                                    
+                                                        <ul>
+                                                            
+                                                                <li> Price parsing algorithm that can deal with most currencies and price formats </li>
+                                                            
+                                                                <li> Script fetching many concurrent requests using Python 3 asyncio library </li>
+                                                            
+                                                                <li> Worked with multiple web frameworks: Flask, Django, Angular </li>
+                                                            
+                                                        </ul>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        May, 2013
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Aug, 2014
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (1 year 3 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Part-time development</strong>,&nbsp;Danger Farms</p>
+                                                    <p>I worked part-time on multiple Django apps with Danger Farms while in the 2nd year of university. This is where I learned how to work with web frameworks and became proficient in Python.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Jan, 2013
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Mar, 2013
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (1 month)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Intern</strong>,&nbsp;ArcGEO</p>
+                                                    <p>I worked on a prototype for an Android app called tourcentrope. The app was aimed at tourism on the borders of Slovakia, Czech Republic, Austria and Hungary. I worked on all aspects of the app - from architecture to user interface.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        May, 2012
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Aug, 2012
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (3 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Web development</strong>,&nbsp;bajkomktajchom.sk</p>
+                                                    <p>A website I created and designed for a mountain-biking project in Štiavnické Vrchy mountain range in Slovakia.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        May, 2012
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Aug, 2012
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (3 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-code"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        Skills
+                                    </h4>
+
+                                    <div class="content">
+                                        <ul class="list-unstyled">
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>Web Development</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                            <span class="label label-primary">HTML</span>
+                                                        
+                                                            <span class="label label-primary">CSS</span>
+                                                        
+                                                            <span class="label label-primary">Javascript</span>
+                                                        
+                                                            <span class="label label-primary">Django</span>
+                                                        
+                                                            <span class="label label-primary">Flask</span>
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>Mobile App Development</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                            <span class="label label-primary">Objective-C</span>
+                                                        
+                                                            <span class="label label-primary">Swift</span>
+                                                        
+                                                            <span class="label label-primary">Android</span>
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-mortar-board"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        Education
+                                    </h4>
+
+                                    <div class="content">
+                                        <ul class="list-unstyled">
+                                            
+                                                <li class="card card-nested">
+                                                    <p>
+                                                        <strong>Computer Science, Bachelor</strong>,&nbsp;
+                                                        University of Edinburgh
+                                                        <small class="text-muted pull-right">
+                                                            2011-09-01 - 
+                                                        </small>
+                                                    </p>
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                                <div class="detail">
+                                    <div class="icon">
+                                        <i class="fa fa-lg fa-trophy"></i>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">
+                                            Awards
+                                        </h4>
+
+                                        <div class="content">
+                                            <ul class="list-unstyled">
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Netcraft Prize</strong>,&nbsp;
+                                                            Netcraft
+                                                            <small class="pull-right text-muted">2014-09-10</small>
+                                                        </p>
+                                                        <p class="clear-margin"> The Netcraft Prizes are awarded to the 6 undergraduate students with best performance in third year. </p>
+                                                    </li>
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Best Game Prize</strong>,&nbsp;
+                                                            Informatics 1 - Object Oriented Programming
+                                                            <small class="pull-right text-muted">2012-03-30</small>
+                                                        </p>
+                                                        <p class="clear-margin"> Manager and developer of a team that was awarded the prize for the best game. </p>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+                            
+                                <div class="detail">
+                                    <div class="icon">
+                                        <i class="fa fa-lg fa-child"></i>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">
+                                            Volunteer Work
+                                        </h4>
+
+                                        <div class="content">
+                                            <ul class="list-unstyled">
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Volunteer</strong>,&nbsp;
+                                                            Interfaith Gardening Project, IVS
+                                                            <small class="pull-right text-muted">
+                                                                2010-08-01 - 2010-08-31
+                                                            </small>
+                                                        </p>
+                                                        <p>The aim of the project was to help upkeep buildings of various religions and meet people from different cultures.</p>
+                                                        <ul>
+                                                            
+                                                        </ul>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+                            
+
+                            
+                                <div class="detail">
+                                    <div class="icon">
+                                        <i class="fa fa-lg fa-heart"></i>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">
+                                            Interests
+                                        </h4>
+
+                                        <div class="content">
+                                            <ul class="list-unstyled">
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Sports</strong>
+                                                        </p>
+
+                                                        <div class="space-top">
+                                                            
+                                                                <span class="label label-primary">Snowboarding</span>
+                                                            
+                                                                <span class="label label-primary">Running</span>
+                                                            
+                                                        </div>
+                                                    </li>
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Leisure</strong>
+                                                        </p>
+
+                                                        <div class="space-top">
+                                                            
+                                                                <span class="label label-primary">Concertgoing</span>
+                                                            
+                                                                <span class="label label-primary">Playing board games</span>
+                                                            
+                                                        </div>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+                            
+
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
-        <div class="col-md-6 col-sm-12">
-        <img class="media-object img-circle pull-right" data-src="holder.js/64x64" alt="64x64" src="http:&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;3dd86c55db73b804600d32c48a8f3925?s=100&amp;r=pg&amp;d=mm" style="width: 100px; height: 100px; margin-top: 20px;">
 
-        </div>
-        </div>
-      <hr style="color: #ccc; height: 4px;" />
-      <section class="row">
-        <header class="col-md-3">
-          <h3>About</h3>
-        </header>
-        <div class="col-md-9">
-        <p>I&#39;m a 4th year Computer Science student at the University of Edinburgh.</p>
-        <strong>Email:</strong> mrknmc@me.com<br />
-        </div>
-      </section>
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Work Experience</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="skills">
-            <h3>Skyscanner</h3>
-            <strong>Software Engineer</strong>
-            <p>2013 - 2014</p>
-            <p>I got into the internship programme in 2013 and was offered a part-time position for the next year. In summer 2014 I returned as an intern. Most of the work revolved around writing and maintaining scrapers for airlines but I got involved in several interesting projects.</p>
-            <ul>
-              <li>Price parsing algorithm that can deal with most currencies and price formats</li>
-              <li>Script fetching many concurrent requests using Python 3 asyncio library</li>
-              <li>Worked with multiple web frameworks: Flask, Django, Angular</li>
-            </ul>
-            <hr />            <h3>Danger Farms</h3>
-            <strong>Part-time development</strong>
-            <p>2013 - 2013</p>
-            <p>I worked part-time on multiple Django apps with Danger Farms while in the 2nd year of university. This is where I learned how to work with web frameworks and became proficient in Python.</p>
-            <ul>
-            </ul>
-            <hr />            <h3>ArcGEO</h3>
-            <strong>Intern</strong>
-            <p>2012 - 2012</p>
-            <p>I worked on a prototype for an Android app called tourcentrope. The app was aimed at tourism on the borders of Slovakia, Czech Republic, Austria and Hungary. I worked on all aspects of the app - from architecture to user interface.</p>
-            <ul>
-            </ul>
-            <hr />            <h3>bajkomktajchom.sk</h3>
-            <strong>Web development</strong>
-            <p>2012 - 2012</p>
-            <p>A website I created and designed for a mountain-biking project in Štiavnické Vrchy mountain range in Slovakia.</p>
-            <ul>
-            </ul>
-            <hr />
-          </div>
-        </div>
-      </section>
-
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Education</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="skills">
-            <h3>University of Edinburgh</h3>
-            <h4>Computer Science, Bachelor</h4>
-            <p>2011 - Present</p>
-            <p></p>
-            <ul>
-            </ul>
-            <hr />
-          </div>
-        </div>
-      </section>
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Skills</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="row-fluid skills">
-            <ul class="col-md-6">
-
-              <li>
-                <h4>Web Development</h4>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Javascript</li>
-                  <li>Django</li>
-                  <li>Flask</li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="col-md-6">
-
-              <li>
-                <h4>Mobile App Development</h4>
-                <ul>
-                  <li>Objective-C</li>
-                  <li>Swift</li>
-                  <li>Android</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-    </div>
-  </div>
-</div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-  </body>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </body>
 </html>
