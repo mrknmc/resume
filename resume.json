@@ -26,12 +26,20 @@
   },
   "work": [
     {
+      "company": "The University of Edinburgh",
+      "position": "Informatics 1 - Functional Programming Tutor",
+      "website": "http://www.ed.ac.uk",
+      "startDate": "2014-10-02",
+      "endDate": "2014-11-30",
+      "summary": "Tutor for a first year course on functional programming with Haskell."
+    },
+    {
       "company": "Skyscanner",
       "position": "Software Engineer",
       "website": "http://skyscanner.net",
       "startDate": "2013-05-28",
       "endDate": "2014-08-31",
-      "summary": "Got into the internship programme in 2013 and was offered a part-time position for the next year. Returned as an intern in summer 2014. Most of the work revolved around writing and maintaining scrapers in Python but got involved in several interesting projects as well.",
+      "summary": "Got into the internship programme in 2013 and was offered a part-time position for the next year. Returned as an intern in summer 2014. Most of the work revolved around writing and maintaining scrapers in Python but got involved in several other projects as well.",
       "highlights": [
         "Price parsing algorithm that can deal with most currencies and price formats",
         "Script fetching many concurrent requests using Python 3 asyncio library",
