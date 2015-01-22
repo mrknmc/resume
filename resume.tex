@@ -20,24 +20,34 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.8]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+% \setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 % \setlength{\parskip}{1cm plus4mm minus3mm}
+
+
+% style external links
+\AtBeginDocument{
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=blue!50!red,
+    urlcolor=white!42!black
+  }
+}
 
 
 % personal data
 \name{Mark}{Nemec}
 % \title{Resumé title}                               % optional, remove / comment the line if not wanted
 \address{3/5 Grindlay Street}{EH3 9AT Edinburgh}{United Kingdom}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
-% \phone[mobile]{+1~(234)~567~890}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+% \phone[mobile]{+44 7724 705832}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 % \phone[fixed]{+2~(345)~678~901}
 % \phone[fax]{+3~(456)~789~012}
 \email{mrknmc@me.com}                               % optional, remove / comment the line if not wanted
 \homepage{www.mrknmc.com}                         % optional, remove / comment the line if not wanted
-% \social[linkedin]{mrknmc}                        % optional, remove / comment the line if not wanted
-\social[twitter]{mrknmc}                             % optional, remove / comment the line if not wanted
 \social[github]{mrknmc}                              % optional, remove / comment the line if not wanted
+% \social[linkedin]{mrknmc}                        % optional, remove / comment the line if not wanted
+% \social[twitter]{mrknmc}                             % optional, remove / comment the line if not wanted
 % \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 % \photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 % \quote{Some quote}                                 % optional, remove / comment the line if not wanted
@@ -59,13 +69,22 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
+
+\section{Education}
+\cventry{2011--2015}{BSc Computer Science}{University of Edinburgh}{Edinburgh}{}{
+\begin{itemize}
+\item Year 3: 79\% average
+\item Year 2: 90\% average
+\item Year 1: 80\% average
+\end{itemize}}
+
+
 \section{Experience}
-\cventry{2014}{Inf1 - Functional Programming Tutor}{The University of Edinburgh}{Edinburgh}{}{Tutor for a first year course on functional programming with Haskell.}
+\cventry{2014}{Functional Programming Tutor}{The University of Edinburgh}{Edinburgh}{}{Tutor for a first year course on functional programming with Haskell.}
 \vspace{1mm}
 \cventry{2013 and 2014}{Data Acquisition Intern}{Skyscanner}{Edinburgh}{}{Worked on an automated price accuracy framework using Selenium. As a returning intern I also helped with the training of new interns.}
 \vspace{1mm}
-\cventry{2013--2014}{Software Engineer}{Skyscanner}{Edinburgh}{}{Was offered a part-time position after first internship with Skyscanner. Most of the work revolved around writing and maintaining scrapers in Python but got involved in several other projects as well.\newline{}
-Highlights:%
+\cventry{2013--2014}{Undergraduate Software Engineer}{Skyscanner}{Edinburgh}{}{Was offered a part-time position after first internship with Skyscanner. Most of the work revolved around writing and maintaining scrapers in Python but got involved in several other projects as well.\newline{}
 \begin{itemize}%
 \item Price parsing algorithm that can deal with most currencies and price formats;
 \item Script fetching many concurrent requests using Python 3 asyncio library;
@@ -77,28 +96,29 @@ Highlights:%
 \vspace{1mm}
 \cventry{2012}{Intern}{ArcGEO}{Bratislava}{}{Created and designed a prototype for an Android app called tourcentrope. The app was aimed at tourism on the borders of Slovakia, Czech Republic, Austria and Hungary. Worked on all aspects of the app - from software architecture to user interface.}
 \vspace{1mm}
-\cventry{2012}{Web Developer}{Bajkom k tajchom}{Bratislava}{}{Created and designed a website for a mountain-biking project in Stiavnicke Vrchy mountain range in Slovakia.}
-\vspace{1mm}
-\section{Side Projects}
-\cventry{}{\href{https://github.com/mrknmc/hitax}{\faGithub{} hitax}}{}{}{}{Programming code viewer using Dropbox API. }
-\vspace{1mm}
-\cventry{}{\href{https://github.com/mrknmc/bkt-ios}{\faGithub{} Bajkom k tajchom iOS App}}{}{}{}{Written to learn how to program with the programming language Swift and Apple's layouting engine AutoLayout. \textit{Work in progress.}}
-\vspace{1mm}
-\cventry{}{\href{https://github.com/mrknmc/mopsy}{\faGithub{} Mopsy}}{}{}{}{Front end client for \href{http://mopidy.com}{mopidy} developed with Facebook's ReactJS, Gulp and Bootstrap. \textit{Work in progress.}}
-\vspace{1mm}
 
-\section{Education}
-\cventry{2011--2015}{BSc Computer Science}{The University of Edinburgh}{Edinburgh}{}{
-\begin{itemize}
-\item Year 3: 79\% average
-\item Year 2: 90\% average
-\item Year 1: 80\% average
-\end{itemize}}
-\cventry{2007-2011}{Grammar School}{Gymnazium Laca Novomeskeho}{Bratislava}{}{}
+% \pagebreak
+
+\section{Projects}
+\cventry{}{\href{https://www.aslip.me}{WindSol}}{}{}{}{Created back-end and front-end for a weather station prototype.}
+\vspace{1mm}
+\cventry{}{\href{http://mrknmc.com/hitax/}{hitax}}{}{}{}{Web app for viewing syntax-highlighted code, using Dropbox Datastore API.}
+\vspace{1mm}
+\cventry{}{\faGithub{} \href{https://github.com/mrknmc/bkt-ios}{Bajkom k tajchom iOS App}}{}{}{}{Written to learn how to program with the programming language Swift and Apple's layouting engine AutoLayout. \textit{Work in progress.}}
+\vspace{1mm}
+\cventry{}{\faGithub{} \href{https://github.com/mrknmc/mopsy}{Mopsy}}{}{}{}{Front end client for \href{http://mopidy.com}{mopidy} developed with ReactJS, Gulp and Bootstrap. \textit{Work in progress.}}
+\vspace{1mm}
 
 % \section{Honours Project}
 % \cvitem{title}{\textbf{Storm on Multicore}}
 % \cvitem{description}{Port of Apache Storm for multi-core CPUs.}
+
+\section{Computer skills}
+\cvitemwithcomment{Extensive}{Python, Java, Javascript, SQL, shell, git}{}
+\cvitemwithcomment{Familiar}{C, Swift, Objective-C, Haskell}{}
+\cvitemwithcomment{Web}{HTML, CSS, Django, Flask, ReactJS, AngularJS}{}
+\cvitemwithcomment{Mobile}{iOS, Android}{}
+\cvitemwithcomment{OS}{OS X, *nix, Windows}{}
 
 \section{Awards}
 \cventry{2014}{Netcraft Prize}{Netcraft}{}{}{The Netcraft Prizes are awarded to the 6 undergraduate students with best performance in third year.}  % arguments 3 to 6 can be left empty
@@ -112,18 +132,12 @@ Highlights:%
 \cvitemwithcomment{Slovak}{Native Speaker}{}
 \cvitemwithcomment{German}{Conversational}{}
 
-\section{Computer skills}
-\cvitemwithcomment{Extensive}{Python, Java, Javascript, SQL, shell, git}{}
-\cvitemwithcomment{Familiar}{C, Swift, Objective-C, Haskell}{}
-\cvitemwithcomment{Web}{HTML, CSS, Django, Flask, ReactJS, AngularJS}{}
-\cvitemwithcomment{Mobile}{iOS, Android}{}
-\cvitemwithcomment{OS}{OS X, *nix, Windows}{}
-
 \section{Interests}
-\cvitem{}{Snowboarding}
-\cvitem{}{Running}
-\cvitem{}{Concertgoing}
-\cvitem{}{Board games}
+\cvitemwithcomment{}{Running, Concertgoing, Board games, Snowboarding}{}
+% \cvitem{}{Snowboarding}
+% \cvitem{}{Running}
+% \cvitem{}{Concertgoing}
+% \cvitem{}{Board games}
 
 
 % \section{Extra 2}
