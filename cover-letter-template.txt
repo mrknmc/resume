@@ -1,0 +1,14 @@
+Hello,
+
+My name is Mark Nemec and I am a final year Computer science student at the University of Edinburgh. I came upon your Software Engineer, Front-End job listing on Github Jobs and got very interested. I would like to apply for this position. For some relevant work you could check out two of my projects on Github:
+
+https://github.com/mrknmc/slip-web - Backbone, jQuery etc.
+https://github.com/mrknmc/mopsy - React.js
+
+While mopsy is still work in progress (I want to learn more about React), slip-web has a front-end and back-end I developed for a project in one of my courses.
+
+Thank you for your consideration. I am looking forward to hearing from you.
+
+Kind regards,
+
+Mark Nemec
