@@ -30,16 +30,17 @@
   \hypersetup{
     colorlinks=true,
     linkcolor=blue!50!red,
-    urlcolor=white!42!black
+    urlcolor=white!0!black
   }
 }
+\urlstyle{same}
 
 
 % personal data
 \name{Mark}{Nemec}
 % \title{Resumé title}                               % optional, remove / comment the line if not wanted
 \address{3/5 Grindlay Street}{EH3 9AT Edinburgh}{United Kingdom}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
-% \phone[mobile]{+44 7724 705832}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\phone[mobile]{+44 7724 705832}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 % \phone[fixed]{+2~(345)~678~901}
 % \phone[fax]{+3~(456)~789~012}
 \email{mrknmc@me.com}                               % optional, remove / comment the line if not wanted
@@ -71,46 +72,48 @@
 
 \section{Experience}
 
-\cventry{2014}{Functional Programming Tutor}{The University of Edinburgh}{Edinburgh}{}{Tutor for a first year course on functional programming with Haskell.}
+\cventry{2014--2015}{Functional \& Object-Oriented Programming Tutor}{The University of Edinburgh}{Edinburgh}{}{Tutor for first year courses on functional programming with Haskell and object-oriented programming with Java. Tutored a group of students on a range of different topics covering both programming languages.}
 \vspace{1mm}
-\cventry{2013 and 2014}{Data Acquisition Intern}{Skyscanner}{Edinburgh}{}{Worked on an automated price accuracy framework using Selenium. As a returning intern I helped with the training of new interns.}
-\vspace{1mm}
-\cventry{2013--2014}{Undergraduate Software Engineer}{Skyscanner}{Edinburgh}{}{Was offered a part-time position after first internship with Skyscanner. Highlights:
+\cventry{Summer 2014}{Data Acquisition Intern}{Skyscanner}{Edinburgh}{}{Worked on an automated price accuracy framework using Selenium. Developed a tool for measuring airline coverage. Highlights:
 \begin{itemize}%
-    \item Price parsing algorithm that can deal with most currencies and price formats;
-    \item Script fetching many concurrent requests using Python 3 asyncio library;
-    \item Worked with multiple web frameworks: Flask, Django, Angular;
-    \item Developed a Sublime Text plugin used by the team;
+    \item Price parsing algorithm that can deal with most currencies and price formats in the world;
+    \item Tool running concurrent requests using Python 3 asyncio library;
+\end{itemize}}
+\vspace{1mm}
+\cventry{2013--2014}{Undergraduate Software Engineer}{Skyscanner}{Edinburgh}{}{Was offered a part-time position after first internship with Skyscanner. Worked in the Coverage team on adding scrapers for airlines not yet on Skyscanner.}
+\vspace{1mm}
+\cventry{Summer 2013}{Data Acquisition Intern}{Skyscanner}{Edinburgh}{}{Worked in a team of interns responsible for writing and maintaining web scrapers in Python. Highlights:
+\begin{itemize}%
+    \item Worked with 3rd parties on getting them on Skyscanner;
+    \item Worked on internal tools with web frameworks such as Django and AngularJS;
+    \item Developed a Sublime Text plug-in in Python used by the team;
     \vspace{1mm}
 \end{itemize}}
-\cventry{2013}{Part-time Developer}{Danger Farms}{Edinburgh}{}{Worked part-time on multiple Django apps with Danger Farms while in second year of university. Learned to work with multiple web frameworks such as Django and Flask and became proficient in Python.}
-\vspace{1mm}
-
+\cventry{2013}{Part-time Developer}{Danger Farms}{Edinburgh}{}{Worked part-time on several projects while in second year of university. Learned to work with Python web frameworks such as Django and Flask and became proficient in Python.}
 
 \section{Education}
 \cventry{2011--2015}{BSc Computer Science}{University of Edinburgh}{Edinburgh}{}{}
 
 
 \section{Projects}
-\cventry{}{Storm on Multi-core}{}{}{}{Port of Apache Storm for multi-core machines.}
-\cventry{}{WindSol}{}{}{}{Created back-end and front-end for a weather station prototype.}
-\vspace{1mm}
+\cventry{}{Storm on Multi-core}{Honours Project}{\url{https://github.com/mrknmc/storm-mc}}{}{Port of Apache Storm on multi-core. Open-source data stream processing library written in Java and Clojure.}
+\cventry{}{WindSol}{}{\url{http://aslip.me}}{\url{https://github.com/mrknmc/slip-web}}{Back-end and front-end for a weather station prototype. Written in Node.js and Backbone.js.}
 
 \section{Computer skills}
-\cvitemwithcomment{Extensive}{Python, Java, Javascript, SQL, shell, git}{}
+\cvitemwithcomment{Extensive}{Python, Java, Javascript, SQL, shell scripting, git}{}
 \cvitemwithcomment{Familiar}{Clojure, C, Swift, Objective-C, Haskell}{}
 \cvitemwithcomment{Web}{HTML, CSS, Django, Flask, ReactJS, AngularJS}{}
-\cvitemwithcomment{Mobile}{iOS, Android}{}
+\cvitemwithcomment{Mobile}{Basics of iOS development}{}
 \cvitemwithcomment{OS}{OS X, *nix, Windows}{}
 
 \section{Awards}
-\cventry{2014}{Netcraft Prize}{Netcraft}{}{}{The Netcraft Prizes are awarded to the 6 undergraduate students with best performance in third year.}  % arguments 3 to 6 can be left empty
-\cventry{2012}{Best Game Prize}{The University of Edinburgh}{}{}{Manager and developer of a team that was awarded the prize for the best game.}  % arguments 3 to 6 can be left empty
+\cventry{2014}{Netcraft Prize}{Netcraft}{}{}{The Netcraft Prizes are awarded to top 6 undergraduate students in third year.}  % arguments 3 to 6 can be left empty
+% \cventry{2012}{Best Game Prize}{The University of Edinburgh}{}{}{Manager and developer of a team that was awarded the prize for the best game.}  % arguments 3 to 6 can be left empty
 
 \section{Languages}
 \cvitemwithcomment{English}{Fluent}{}
 \cvitemwithcomment{Slovak}{Native Speaker}{}
-\cvitemwithcomment{German}{Conversational}{}
+% \cvitemwithcomment{German}{Conversational}{}
 
 \section{Interests}
 \cvitemwithcomment{}{Running, Concertgoing, Board games, Snowboarding}{}
